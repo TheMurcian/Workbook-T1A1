@@ -282,7 +282,7 @@ end
 Note: both programs do run, however, I condensed the two conditional statements into one using && allowing for more efficiency and less lines of code, whereas the second set of code might be considered a superior way of expressing the code with respect to structure and clarity. I included both as I was not certain which would constitute better practice. 
 
 
-# Q. 16: An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
+## Q. 16: An allergy test produces a single numeric score which contains the information about all the allergies the person has (that they were tested for). The list of items (and their value) that were tested are:
  - eggs (1)
  - peanuts (2) 
  - shellfish (4) 
@@ -294,7 +294,7 @@ Note: both programs do run, however, I condensed the two conditional statements 
 
 So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 
-# Write a program that, given a person’s score can tell them:
+## Write a program that, given a person’s score can tell them:
  a) whether or not they’re allergic to a given item
  b) the full list of allergies.
 
@@ -364,3 +364,58 @@ else
    puts "Eggs: Negative"
 end
 ```
+
+## References:
+
+Anne, C. (2017). ‘The Internet: Crash Course Computer Science #29’, CrashCourse. Retrieved from: https://www.youtube.com/watch?v=AEaKrq3SpW8&t=194s
+Castello, J (2019). ‘An Overview of Data Structures for Ruby Developers ’, Ruby Guides. Retrieved from: https://www.rubyguides.com/2019/04/ruby-data-structures/
+
+Cerf, V. (2019). ‘Packet, routers, and reliability | Internet 101 | Computer Science | Khan Academy’. Retrieved from: https://www.youtube.com/watch?v=aD_yi5VjF78
+
+Cerf, V. (2019). ‘IP addresses and DNS | Internet 101  Computer Science | Khan Academy’. Retrieved from: https://www.youtube.com/watch?v=MwxMsaFFycg
+
+Data Flair (2018). ‘Pros and Cons of Java | Advantages and Disadvantages’, Data Flair Training. Retrieved from: https://data-flair.training/blogs/pros-and-cons-of-java/
+Dennis, M. A. (2020). ‘Tim Berners-Lee’, Encyclopedia Britannica, June 4, 2020. Retrieved from:
+https://www.britannica.com/biography/Tim-Berners-Lee
+ 
+Eastwood, B. (2020). ‘The 10 Most Popular Programming Languages to Learn in 2020’, Northeastern University Blog. Retrieved from: 
+https://www.northeastern.edu/graduate/blog/most-popular-programming-languages/
+
+Hiwarale, U. (2019). ‘How the browser renders a web page? - DOM CSSOM, and Rendering’, Medium. Retrieved from: https://medium.com/jspoint/how-the-browser-renders-a-web-page-dom-cssom-and-rendering-df10531c9969
+
+Kelly, G. (2014). ‘Ebay Suffers Massive Security Breach’, Forbes. Retrieved from:
+https://www.forbes.com/sites/gordonkelly/2014/05/21/ebay-suffers-massive-security-breach-all-users-must-their-change-passwords/
+
+Lutkevich, B. (2020). ‘TCP (Transmission Control Protocol)’, Search Networking. Retrieved from: https://searchnetworking.techtarget.com/definition/TCP#:~:text=TCP%20(Transmission%20Control%20Protocol)%20is,of%20data%20to%20each%20other.
+
+MDN Web Docs (2020). ‘Evolution of HTTP’. Retrieved from: 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP
+
+MDN (2020). ‘What are browser developer tools?’, Mozilla Developer Docs. Retrieved from: https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tool
+
+Miller, J. M. (2014). ‘25 Years Later: How a ‘Mesh’ Turned Into the World Wide Web’, PC Mag, March 12. Retrieved from: 
+https://www.pcmag.com/news/25-years-later-how-a-mesh-turned-into-the-world-wide-web
+
+Mischook, S. (2020). ‘Why Learn Python in 2021?’, StudioWeb. Retrieved from: 
+https://blog.studioweb.com/2020/11/29/why-learn-python-in-2021/
+
+Naughton, J (2016). ‘The evolution of the Internet: from military experiment to General Purpose Technology’, Journal of Cyber Policy, 1:1, pp. 5-28 
+https://doi.org/10.1080/23738871.2016.1157619
+
+Office for the Australian Information Centre (2020). ‘Australian Privacy Principles’, retrieved from: https://www.oaic.gov.au/privacy/australian-privacy-principles/australian-privacy-principles-quick-reference/
+
+Office for the Australian Information Centre (2014). ‘Mobile Privacy: A Better Practice Guide for Mobile App Developers’, retrieved from: https://www.oaic.gov.au/privacy/guidance-and-advice/mobile-privacy-a-better-practice-guide-for-mobile-app-developers/
+
+Office for the Information Commission Queensland (2014). ‘Privacy and Mobile Apps’. Retrieved from: https://www.oic.qld.gov.au/guidelines/for-government/guidelines-privacy-principles/applying-the-privacy-principles/privacy-and-mobile-apps
+
+Perlroth, N. (2014). ‘Ebay Urges New Passwords After Breach’, New York Times. Retrieved from: https://www.nytimes.com/2014/05/22/technology/ebay-reports-attack-on-its-computer-network.html
+
+Pew Research (2014). ‘The World Wide Web Timeline’, March 11. Retrieved from: https://www.pewresearch.org/internet/2014/03/11/world-wide-web-timeline/
+
+Press, G. (2015) ‘A Very Short History of the Internet and the Web’, Forbes. Retrieved from:
+https://www.forbes.com/sites/gilpress/2015/01/02/a-very-short-history-of-the-internet-and-the-web-2/
+
+Shaw, K. & Fruhlinger, J. (2020). ‘What is DNS and how does it work?’, Network World. Retrieved from: 
+https://www.networkworld.com/article/3268449/what-is-dns-and-how-does-it-work.html
+
+
