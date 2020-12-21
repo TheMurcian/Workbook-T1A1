@@ -215,29 +215,28 @@ The above successfully looks for the first two digits out of order in the array 
 
 
 #### Pseudocode for process 
-Start
-Initialize i = 1
-If i is in range (1-100) 
-j = 2
-if i / j is integer
-if yes, then check if i = j
-if yes, i is a prime
-if not
-i is not prime
-If i / j is not an integer
-Then  j = j + 1
-Do check again: loop back to 3.b with a new j value
-Endif
-If prime 
-then display i 
-Then continue loop and increment i = i + 1
-If not prime
-Don’t display anything, but increment i = i+ 1 
-endif
-Loop back to 3	
-Else (not within range)
- end program
-Endif	
+1. Start
+2. Initialize i = 1
+3. If i is in range (1-100) 
+   a.  j = 2
+   b.  if i / j is integer
+       i. if yes, then check if i = j
+          1. if yes, i is a prime
+       ii. if not
+          1. i is not prime
+   c. if i / j is not an integer
+       i. then  j = j + 1
+       ii. do check again: loop back to 3.b with a new j value
+   d. if prime 
+       i. then display i 
+       ii. then continue loop and increment i = i + 1
+   e. if not prime
+      i. Don’t display anything, but increment i = i+ 1 
+   g. endif
+   h. Loop back to 3	
+4. Else (not within range)
+   a. end program
+5. End
 
 
 # Q. 15: write pseudocode OR Ruby code for the following problem:
@@ -305,63 +304,75 @@ So if Tom is allergic to peanuts and chocolate, he gets a score of 34.
 puts "Input your given allergy score: "
 num = gets.chomp().to_i
 
-puts num > 255 || num < 1 ? "Invalid score & results. Please input valid score: 1-255" : "Allergens | Results: "
+p = ": Positive"
+n = ": Negative"
+allergies = {
+             1 => "Eggs",
+             2 => "Peanuts",
+             4 => "Shellfish",
+             8 => "strawberries",
+             16 => "Tomatoes",
+             32 => "Chocolate",
+             64 => "Pollen",
+             128 => "Cats"
+            }
 
-if num >= 128 
-   puts "Cats: Positive"
+puts num > 255 || num < 1 ? "Invalid score & results. Please input valid score: 1-255" : "Allergens | Results:"
+
+if num >= 128
+   puts allergies[128] + p
    num = num - 128
 else 
-   puts "Cats: Negative"
+    puts allergies[128] + n
 end
 
 if num >= 64
-   puts "Pollen: Positive"
+   puts allergies[64] + p
    num = num - 64
 else 
-   puts "Pollen: Negative"
+   puts allergies[64] + n
 end
 
-if 
-   num >= 32
-   puts "Chocolate: Positive"
+if num >= 32 
+   puts allergies[32] + p
    num = num - 32
 else
-   puts "Chocolate: Negative"
+   puts allergies[32] + n
 end
 
 if num >= 16
-   puts "Tomatoes: Positive"
+   puts allergies[16] + p
    num = num - 16
 else
-   puts "Tomatoes: Negative"
+   puts allergies[16] + n
 end
 
-if num >= 8 
-   puts "Strawberries: Positive"
+if num >= 8
+   puts allergies[8] + p
    num = num - 8
 else
-   puts "Strawberries: Negative"
+   puts allergies[8] + n
 end
 
-if num >= 4 
-   puts "Shellfish: Positive"
+if num >= 4
+   puts allergies[4] + p
    num = num - 4
-else 
-   puts "Shellfish: Negative"
+else
+   puts allergies[4] + n
 end
 
 if num >= 2
-   puts "Peanuts: Positive"
+   puts allergies[2] + p
    num = num - 2
 else
-   puts "Peanuts: Negative"
+   puts allergies[2] + n
 end
 
 if num >= 1
-   puts "Eggs: Positive"
+   puts allergies[1] + p
    num = num - 1
 else
-   puts "Eggs: Negative"
+   puts allergies[1] + n
 end
 ```
 
